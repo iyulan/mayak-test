@@ -1,0 +1,12 @@
+{
+  "type" : "object",
+  "properties": {
+    "id" : { "type" : "integer" },
+    "marketplace" : { "type" : "string" },
+    "name" : { "type" : "string" },
+    "product_id" : { "type" : "integer" },
+    "product_brand" : { "type" : "object" },
+    "product_ranks" : { "type" : "array" }
+  },
+  "required" : ["id", "marketplace", "product_id", "product_id", "product_brand", "product_ranks"]
+}

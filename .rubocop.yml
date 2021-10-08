@@ -1,0 +1,17 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+AllCops:
+  SuggestExtensions: false
+
+Style/MethodCallWithArgsParentheses:
+  Exclude:
+    - 'db/schema.rb'
+
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'db/schema.rb'
